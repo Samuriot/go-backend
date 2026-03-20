@@ -1,0 +1,23 @@
+{
+  "gateway": {
+    "name": "test-api-gateway",
+  },
+  "services": [
+    {
+      "name": "product-service",
+      "endpoint": "http://localhost:8080"
+    },
+    {
+      "name": "user-service",
+      "endpoint": "http://localhost:3000"
+    }
+  ],
+  "logging": {
+    "level": "info",
+    "access_log": {
+      "enabled": true,
+      "format": "json",
+      "file_name": "log.json"
+    }
+  }
+}
