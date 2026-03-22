@@ -6,6 +6,7 @@
 # Currently Working On 
 - Creating Response & Request Objects to wrap around HTTP library
 - Integrating multiple types of databases innately
+- Would like to pivot this project to a Reverse-Proxy Server
 
 # End-Goal
 - I want to create my own version of a backend framework that will make it a lot easier to get into backend development.
